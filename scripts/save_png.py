@@ -1,4 +1,7 @@
-import argparse, numpy as np, rasterio, matplotlib.pyplot as plt
+import argparse
+import numpy as np
+import rasterio
+import matplotlib.pyplot as plt
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--input", required=True)
